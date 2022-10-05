@@ -1,0 +1,45 @@
+Processing Steps:
+
+1. Created BankAccount Class in ecxam package
+
+  a. created variables and given minimumm balance to 1000
+ 
+  b. created default and parameterized constructor
+
+  c. implemented getters and setters
+ 
+  d. implemented toString method
+
+2. Created BankMt Class in exam package
+
+  a. created an array which stores account holders
+  
+  b. static random object and scanner for user input
+
+  c. created auto generated method for account number and pin
+
+  d. implemented:-
+     Add Customer
+     Update Customer
+     Delete Customer 
+     Deposit
+     Withdrawal
+     Show Balance of specific customer
+     Display All Customer
+     Display Customer with Account number
+     Transfer Money
+
+   e. implemented one method to check if account exists or not
+
+   f. implemented one method to validate pin
+
+3. Created BankApp Class in exam package for main method
+     
+  a. Created scanner for input choice
+
+  b. created instance of Bank class
+
+  c. inside do loop created switch statements which takes different
+     case for different functions (0-9)
+
+  d. while loop to exit
