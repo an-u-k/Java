@@ -1,0 +1,27 @@
+[16:42] DIVYA, MADIREDDY
+Development steps
+-----------------
+1.create spring strater project -select maven
+
+2.set up dependency   change the scope of msql-server to 7.4.1 in POM.xml             
+3.aplication.properties   #server.port   #Database authentication   #Jpa Hybernate
+4.create packages:
+com.demo.model
+com.demo.repo
+com.demo.service
+com.demo.rest
+5.BuildPath-ConfigureBuildPath-add jar files
+
+6.test the connnection
+
+
+7.create classes and interfaces    com.demo-------main package        com.demo.model              -Customer.java        com.demo.repo              -ICustomerRepository        com.demo.service              -ICustomerService              -IAdminService              -CustomerAdminService        com.demo.controller              -AdminController              -CustomerController
+
+7.create repo(dao) :ICustomerRepository
+
+
+8.Create service: Busines logic Rules                -ICustomerService              -IAdminService                      -CustomerServiceImpl -AdminServiceImpl                            Constructor/field Injection as DI
+9.Create REST Controller:                     SET ALL ENDPOINTS FOR CRUD
+
+10.Test endpoints in Postman
+
